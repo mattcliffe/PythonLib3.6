@@ -72,3 +72,4 @@ def running_mean(x, N):
     else:
         avg = np.cumsum(x)/N
     return avg
+
